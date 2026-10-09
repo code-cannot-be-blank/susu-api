@@ -9,9 +9,9 @@
     "node": ">=22"
   },
   "scripts": {
-    "dev": "node api.js && tsx watch src/index.ts",
-    "build": "node api.js && tsc --noEmit && tsup src/index.ts --format esm --target node22 --out-dir dist",
-    "start": "node api.js && node dist/index.js",
+    "dev": "node init && tsx watch src/index.ts",
+    "build": "node init && tsc --noEmit && tsup src/index.ts --format esm --target node22 --out-dir dist",
+    "start": "node init && node dist/index.js",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

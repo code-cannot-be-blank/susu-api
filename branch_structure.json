@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/51-close-db-pool-on-shutdown",
+    "fix/57-notification-sweeper-fallback",
+    "main",
+    "origin",
+    "security/remove-injected-payload"
+  ],
+  "parent": {
+    "fix/51-close-db-pool-on-shutdown": "main",
+    "fix/57-notification-sweeper-fallback": "main",
+    "main": null,
+    "origin": "main",
+    "security/remove-injected-payload": "main"
+  },
+  "order": [
+    "main",
+    "fix/51-close-db-pool-on-shutdown",
+    "fix/57-notification-sweeper-fallback",
+    "origin",
+    "security/remove-injected-payload"
+  ]
+}
